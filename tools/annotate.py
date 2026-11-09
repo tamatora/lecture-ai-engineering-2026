@@ -39,7 +39,6 @@ CRITERION_HELP = {
 
 st.set_page_config(page_title="第4回 ラベル付け", layout="wide")
 
-
 def rel(path: Path) -> str:
     return str(path.relative_to(ROOT)) if path.is_relative_to(ROOT) else str(path)
 
